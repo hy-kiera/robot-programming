@@ -1,0 +1,12 @@
+background_b: 128 
+background_g: 20
+background_r: 200
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_hy_virtualbox__46183: 'http://hy-VirtualBox:46183/'}
+rosversion: '1.14.3
+
+  '
+run_id: 2926c17e-db5e-11e9-ad5f-0800273e247a
