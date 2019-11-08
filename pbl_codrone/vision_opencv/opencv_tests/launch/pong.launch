@@ -1,0 +1,5 @@
+<launch>
+  <master auto="start"/>
+  <node name="image_view_test" pkg="image_view" type="image_view" args="image:=/opencv_tests/images" respawn="false" output="screen"/>
+  <node name="opencv_tests_test" pkg="opencv_tests" type="source.py" respawn="false" />
+</launch>
